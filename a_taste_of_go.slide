@@ -1,0 +1,40 @@
+A taste of Go
+
+Martino Visintin
+martino.visintin@thoughtworks.com
+
+* Hello World
+
+.play ./code/hello_world.go
+
+- Go has a familiar semantics
+- So don't be scared
+- It is a small and simple language (1-2 days to get productive in it)
+
+* Why Go?
+
+- compiler produces *statically* linked binaries (or `.exe`s..) that run everywhere
+- compile times are *fast*
+- has excellent tooling)
+- comprehensive std. library (net/http, crypto, image, os abstraction, etc.)
+- lots of high-quality libraries (e.g. mongoDB driver is best in class)
+
+* Concurrency
+- gorutines
+- channels
+
+* Concurrency: a silly health checker
+.play ./code/health_checker.go /START OMIT/,/END OMIT/
+
+* References
+
+.link http://talks.golang.org/2012/concurrency.slide Go concurrency patterns
+.link http://confreaks.com/videos/3433-gophercon2014-painless-data-storage-with-mongodb-and-go Painless Data Storage with MongoDB and Go
+
+* Where to go from here
+
+.link http://talks.golang.org talks.golang.org
+.link https://github.com/gophercon/2014-talks Gopher Con 2014 talks
+.link http://tour.golang.org/ A tour of go
+.link http://awesome-go.com/ Awesome go (resources and libraries)
+.link https://gobyexample.com/ Go by example
