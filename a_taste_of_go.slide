@@ -7,21 +7,30 @@ martino.visintin@thoughtworks.com
 
 .play ./code/hello_world.go
 
-- Go has a familiar semantics
-- So don't be scared
+- Go has a familiar semantics; don't be scared
 - It is a small and simple language (1-2 days to get productive in it)
 
 * Why Go?
 
 - compiler produces *statically* linked binaries (or `.exe`s..) that run everywhere
 - compile times are *fast*
-- has excellent tooling)
-- comprehensive std. library (net/http, crypto, image, os abstraction, etc.)
+- has excellent tooling (test, fmt, vet, ...)
+- comprehensive std. library (net/http, crypto, json, ...)
 - lots of high-quality libraries (e.g. mongoDB driver is best in class)
 
-* Concurrency
-- gorutines
+* Concurrency: Goroutines
+
+- a go `func` running concurrently with others
+- a "lightweight" thread
+- very cheap
+- multiplexed onto multiple OS threads as needed
+
+.play ./code/goroutines.go /START OMIT/,/END OMIT/
+
+* Concurrency: Channels
+
 - channels
+  - a way to communicate between goroutines
 
 * Concurrency: a silly health checker
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
