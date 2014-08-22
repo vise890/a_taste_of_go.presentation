@@ -18,6 +18,12 @@ martino.visintin@thoughtworks.com
 - comprehensive std. library (net/http, crypto, json, ...)
 - lots of high-quality libraries (e.g. mongoDB driver is best in class)
 
+* Some code: fibonacci
+.play ./code/fibonacci.go
+
+* Some code: FizzBuzz
+.play ./code/fizz_buzz.go
+
 * Concurrency: Goroutines
 
 - a go `func` running concurrently with others
