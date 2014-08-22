@@ -7,8 +7,9 @@ martino.visintin@thoughtworks.com
 
 .play ./code/hello_world.go
 
-- Go has a familiar semantics; don't be scared
+- Go has a familiar semantics (don't be scared)
 - It is a small and simple language (1-2 days to get productive in it)
+- "A fast, statically typed, compiled language that feels like a dynamically typed, interpreted language"
 
 * Why Go?
 
