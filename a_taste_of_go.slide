@@ -36,8 +36,15 @@ martino.visintin@thoughtworks.com
 
 * Concurrency: Channels
 
-- channels
-  - a way to communicate between goroutines
+.image ./img/go_channels.jpg _ 700
+
+In go, channels are a way to communicate between goroutines.
+
+When sending, a goroutine blocks until the channel is free.
+When receiving, a goroutine blocks until there's something to receive.
+
+You can also buffer channels...
+
 
 * Concurrency: a silly health checker
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
