@@ -23,7 +23,7 @@ martino.visintin@thoughtworks.com
 .play ./code/fibonacci.go
 
 * Some code: FizzBuzz
-.play ./code/fizz_buzz.go
+.play ./code/fizz_buzz.go /START OMIT/,/END OMIT/
 
 * Concurrency: Goroutines
 

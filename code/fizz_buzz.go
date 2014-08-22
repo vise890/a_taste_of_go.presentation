@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+// START OMIT
 // FizzBuzz returns:
 // - "Fizz" if n is divisible by 3
 // - "Buzz" if n is divisible by 5
@@ -29,3 +30,5 @@ func main() {
 		fmt.Printf("%2d => %s\n", i, FizzBuzz(i))
 	}
 }
+
+// END OMIT
