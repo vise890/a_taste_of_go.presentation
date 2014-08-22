@@ -13,7 +13,7 @@ martino.visintin@thoughtworks.com
 * Why Go?
 
 - compiler produces *statically* linked binaries (or `.exe`s..) that run everywhere
-- compile times are *fast*
+- compile times are *fast* (compiling on every save is feasible)
 - has excellent tooling (test, fmt, vet, ...)
 - comprehensive std. library (net/http, crypto, json, ...)
 - lots of high-quality libraries (e.g. mongoDB driver is best in class)

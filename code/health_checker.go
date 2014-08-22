@@ -19,7 +19,7 @@ var (
 )
 
 // START OMIT
-func getResponseCode(url string, out chan string) {
+func getResponseCode(url string, out chan<- string) {
 	resp, err := http.Get(url)
 	if err != nil {
 		out <- fmt.Sprintf("%s : [ %s ]", url, err.Error())
