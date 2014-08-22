@@ -27,7 +27,7 @@ martino.visintin@thoughtworks.com
 
 * Concurrency: Goroutines
 
-- a go `func` running concurrently with others
+- a goroutine is a go `func` running concurrently with others
 - a "lightweight" thread
 - very cheap
 - multiplexed onto multiple OS threads as needed
