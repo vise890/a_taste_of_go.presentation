@@ -63,8 +63,11 @@ You can also buffer channels...
 
 * Where to go from here
 
+.link http://tour.golang.org/ An (interactive) tour of go
+.link http://golang.org/doc/effective_go.html Effective Go
+.link https://gobyexample.com/ Go by example
+
 .link http://talks.golang.org talks.golang.org
 .link https://github.com/gophercon/2014-talks Gopher Con 2014 talks
-.link http://tour.golang.org/ A tour of go
+
 .link http://awesome-go.com/ Awesome go (resources and libraries)
-.link https://gobyexample.com/ Go by example
