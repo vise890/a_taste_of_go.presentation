@@ -3,6 +3,7 @@ A taste of Go
 Martino Visintin
 martino.visintin@thoughtworks.com
 
+
 * Hello World
 
 .play ./code/hello_world.go
@@ -10,6 +11,8 @@ martino.visintin@thoughtworks.com
 - Go has a familiar semantics (don't be scared)
 - It is a small and simple language (1-2 days to get productive in it)
 - "A fast, statically typed, compiled language that feels like a dynamically typed, interpreted language"
+- not the most revolutionary language, but really well executed, and fast.
+
 
 * Why Go?
 
@@ -19,11 +22,11 @@ martino.visintin@thoughtworks.com
 - comprehensive std. library (net/http, crypto, json, ...)
 - lots of high-quality libraries (e.g. mongoDB driver is best in class)
 
+
 * Some code: fibonacci
+
 .play ./code/fibonacci.go
 
-* Some code: FizzBuzz
-.play ./code/fizz_buzz.go /START OMIT/,/END OMIT/
 
 * Concurrency: Goroutines
 
@@ -33,6 +36,7 @@ martino.visintin@thoughtworks.com
 - multiplexed onto multiple OS threads as needed
 
 .play ./code/goroutines.go /START OMIT/,/END OMIT/
+
 
 * Concurrency: Channels
 
@@ -47,12 +51,15 @@ You can also buffer channels...
 
 
 * Concurrency: a silly health checker
+
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
+
 
 * References
 
 .link http://talks.golang.org/2012/concurrency.slide Go concurrency patterns
 .link http://confreaks.com/videos/3433-gophercon2014-painless-data-storage-with-mongodb-and-go Painless Data Storage with MongoDB and Go
+
 
 * Where to go from here
 
