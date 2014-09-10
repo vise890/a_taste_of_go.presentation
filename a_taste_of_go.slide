@@ -54,6 +54,13 @@ You can also buffer channels...
 
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
 
+* DEMO: A micro api
+
+Using:
+- an http server: go's standard lib `net/http`
+- a microframework (routing, response decoration, logging): `gin`
+- a MongoDB driver: `mgo`
+
 
 * References
 
