@@ -3,7 +3,6 @@ A taste of Go
 Martino Visintin
 martino.visintin@thoughtworks.com
 
-
 * Why Go?
 
 - easy to learn
@@ -17,6 +16,7 @@ martino.visintin@thoughtworks.com
 * Hello World
 
 .play ./code/hello_world.go
+
 
 * Some code: fibonacci
 .play ./code/fibonacci.go /START OMIT/,/END OMIT/
@@ -35,6 +35,7 @@ Return: "Fizz" if n is divisible by 3; "Buzz" if n is divisible by 5; "FizzBuzz"
 
 .play ./code/goroutines.go /START OMIT/,/END OMIT/
 
+
 * Concurrency: Channels
 
 .image ./img/go_channels.jpg _ 700
@@ -48,6 +49,7 @@ You can also buffer channels...
 
 
 * Concurrency: a silly health checker
+
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
 
 * DEMO: A mycraservise
@@ -57,10 +59,14 @@ You can also buffer channels...
 .link http://talks.golang.org/2012/concurrency.slide Go concurrency patterns
 .link http://confreaks.com/videos/3433-gophercon2014-painless-data-storage-with-mongodb-and-go Painless Data Storage with MongoDB and Go
 
+
 * Where to go from here
+
+.link http://tour.golang.org/ An (interactive) tour of go
+.link http://golang.org/doc/effective_go.html Effective Go
+.link https://gobyexample.com/ Go by example
 
 .link http://talks.golang.org talks.golang.org
 .link https://github.com/gophercon/2014-talks Gopher Con 2014 talks
-.link http://tour.golang.org/ A tour of go
+
 .link http://awesome-go.com/ Awesome go (resources and libraries)
-.link https://gobyexample.com/ Go by example
