@@ -9,17 +9,16 @@ import (
 
 var (
 	urls = []string{
-		"http://www.google.com",
-		"http://www.google.com/abcdefg404",
-		"http://www.ubuntu.com",
-		"http://www.yoox.com",
+		"http://www.ubuntu.com/4040404040",
+		"http://www.mozilla.org",
 		"http://www.example.com",
+		"http://www.eff.org",
 		"http://www.iclearlydontexist.com",
 	}
 )
 
 // START OMIT
-func getResponseCode(url string, out chan<- string) {
+func checkHTTPStatus(url string, out chan string) {
 	resp, err := http.Get(url)
 	if err != nil {
 		out <- fmt.Sprintf("%s : [ %s ]", url, err.Error())
@@ -31,7 +30,7 @@ func getResponseCode(url string, out chan<- string) {
 func main() {
 	statusCodes := make(chan string)
 	for _, url := range urls {
-		go getResponseCode(url, statusCodes)
+		go checkHTTPStatus(url, statusCodes)
 	}
 	for _ = range urls {
 		fmt.Println(<-statusCodes)

@@ -5,12 +5,12 @@ import (
 	"strconv"
 )
 
-// START OMIT
 // FizzBuzz returns:
 // - "Fizz" if n is divisible by 3
 // - "Buzz" if n is divisible by 5
 // - "FizzBuzz" if n is divisible by both 5 and 3
 // - n otherwise
+// START OMIT
 func FizzBuzz(n int) string {
 	switch {
 	case n%15 == 0:

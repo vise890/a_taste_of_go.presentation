@@ -3,34 +3,35 @@ A taste of Go
 Martino Visintin
 martino.visintin@thoughtworks.com
 
+
+* Why Go?
+
+- easy to learn
+- compiler produces *statically* linked binaries (no runtime)
+- compile times are *fast*
+
+- plenty of high-quality libraries (e.g. MongoDB driver is best in class)
+
+- construcurrency primitives that make concurrent programming easier
+
 * Hello World
 
 .play ./code/hello_world.go
 
-- Go has a familiar semantics (don't be scared)
-- It is a small and simple language (1-2 days to get productive in it)
-- "A fast, statically typed, compiled language that feels like a dynamically typed, interpreted language"
-
-* Why Go?
-
-- compiler produces *statically* linked binaries (or `.exe`s..) that run everywhere
-- compile times are *fast* (compiling on every save is feasible)
-- has excellent tooling (test, fmt, vet, ...)
-- comprehensive std. library (net/http, crypto, json, ...)
-- lots of high-quality libraries (e.g. mongoDB driver is best in class)
-
 * Some code: fibonacci
-.play ./code/fibonacci.go
+.play ./code/fibonacci.go /START OMIT/,/END OMIT/
 
 * Some code: FizzBuzz
+Return: "Fizz" if n is divisible by 3; "Buzz" if n is divisible by 5; "FizzBuzz" if n is divisible by both 5 and 3. N otherwise.
+
 .play ./code/fizz_buzz.go /START OMIT/,/END OMIT/
 
 * Concurrency: Goroutines
 
 - a goroutine is a go `func` running concurrently with others
 - a "lightweight" thread
-- very cheap
-- multiplexed onto multiple OS threads as needed
+- very cheap (can spin up hundreds of them)
+- automatically multiplexed onto multiple OS threads as needed
 
 .play ./code/goroutines.go /START OMIT/,/END OMIT/
 
@@ -38,9 +39,9 @@ martino.visintin@thoughtworks.com
 
 .image ./img/go_channels.jpg _ 700
 
-In go, channels are a way to communicate between goroutines.
+In go, channels are a way to *communicate* *between* *goroutines*.
 
-When sending, a goroutine blocks until the channel is free.
+When sending, a goroutine blocks until the channel is empty.
 When receiving, a goroutine blocks until there's something to receive.
 
 You can also buffer channels...
@@ -48,6 +49,8 @@ You can also buffer channels...
 
 * Concurrency: a silly health checker
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
+
+* DEMO: A mycraservise
 
 * References
 
