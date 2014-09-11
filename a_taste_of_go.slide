@@ -5,7 +5,6 @@ martino.visintin@thoughtworks.com
 
 * Why Go?
 
-- not the most revolutionary language, but really well executed, and fast.
 - easy to learn
 - compiler produces *statically* linked binaries (no runtime)
 - compile times are *fast*
@@ -17,6 +16,8 @@ martino.visintin@thoughtworks.com
 * Hello World
 
 .play ./code/hello_world.go
+
+Not the most revolutionary language, but really well executed, very pragmatic and fast.
 
 
 * Some code: fibonacci
