@@ -6,7 +6,7 @@ martino.visintin@thoughtworks.com
 * Why Go?
 
 - easy to learn
-- compiler produces *statically* linked binaries (no runtime)
+- compiler produces *statically* linked binaries (no runtime, run everywhere)
 - compile times are *fast*
 
 - plenty of high-quality libraries (e.g. MongoDB driver is best in class)
