@@ -6,7 +6,7 @@ martino.visintin@thoughtworks.com
 * Why Go?
 
 - easy to learn
-- compiler produces *statically* linked binaries (no runtime, run everywhere)
+- compiler produces *statically* *linked* *binaries* (no runtime, run everywhere)
 - compile times are *fast*
 
 - plenty of high-quality libraries (e.g. MongoDB driver is best in class [1])
@@ -17,7 +17,7 @@ martino.visintin@thoughtworks.com
 
 - compiled (with blazing fast compile times)
 - imperative
-- lightly OO (struct and interfaces)
+- just enough OO (structs and interfaces)
 - strong static typing (with type inference)
 
 
@@ -28,8 +28,8 @@ martino.visintin@thoughtworks.com
 Go is not the most revolutionary language, but it is really well executed, extremely pragmatic and very fast.
 
 
-* Some code: fibonacci
-.play ./code/fibonacci.go /START OMIT/,/END OMIT/
+* Some code: a temperature checker
+.play ./code/weather.go /START OMIT/,/END OMIT/
 
 
 * Concurrency: Goroutines
