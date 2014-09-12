@@ -7,23 +7,13 @@ import (
 	"net/http"
 )
 
-var (
-	urls = []string{
-		"http://www.ubuntu.com/4040404040",
-		"http://www.mozilla.org",
-		"http://www.example.com",
-		"http://www.eff.org",
-		"http://www.iclearlydontexist.com",
-	}
-)
-
 // START OMIT
+var urls = []string{
+	"http://www.ubuntu.com/404", "http://www.mozilla.org", "http://www.eff.org",
+}
+
 func checkHTTPStatus(url string, out chan string) {
-	resp, err := http.Get(url)
-	if err != nil {
-		out <- fmt.Sprintf("%s : [ %s ]", url, err.Error())
-		return
-	}
+	resp, _ := http.Get(url)
 	out <- fmt.Sprintf("%s : [ %s ]", url, resp.Status)
 }
 

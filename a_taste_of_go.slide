@@ -9,24 +9,28 @@ martino.visintin@thoughtworks.com
 - compiler produces *statically* linked binaries (no runtime, run everywhere)
 - compile times are *fast*
 
-- plenty of high-quality libraries (e.g. MongoDB driver is best in class)
+- plenty of high-quality libraries (e.g. MongoDB driver is best in class [1])
 
 - construcurrency primitives that make concurrent programming easier
+
+* What is Go?
+
+- compiled (w. blazing fast compile times)
+- imperative
+- lightly OO (struct and interfaces)
+- strong static typing (w. type inference)
+
 
 * Hello World
 
 .play ./code/hello_world.go
 
-Go is not the most revolutionary language, but it is really well executed, very pragmatic and fast.
+Go is not the most revolutionary language, but it is really well executed, extremely pragmatic and very fast.
 
 
 * Some code: fibonacci
 .play ./code/fibonacci.go /START OMIT/,/END OMIT/
 
-* Some code: FizzBuzz
-Return: "Fizz" if n is divisible by 3; "Buzz" if n is divisible by 5; "FizzBuzz" if n is divisible by both 5 and 3. N otherwise.
-
-.play ./code/fizz_buzz.go /START OMIT/,/END OMIT/
 
 * Concurrency: Goroutines
 
@@ -58,8 +62,8 @@ You can also buffer channels...
 
 * References
 
+.link http://confreaks.com/videos/3433-gophercon2014-painless-data-storage-with-mongodb-and-go [1] Painless Data Storage with MongoDB and Go
 .link http://talks.golang.org/2012/concurrency.slide Go concurrency patterns
-.link http://confreaks.com/videos/3433-gophercon2014-painless-data-storage-with-mongodb-and-go Painless Data Storage with MongoDB and Go
 
 
 * Where to go from here

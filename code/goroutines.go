@@ -19,6 +19,7 @@ func main() {
 
 	for i := 1; i <= 5; i++ {
 		log.Printf("Launching goroutine #%d\n", i)
+
 		go sayHello(i)
 	}
 	// END OMIT
