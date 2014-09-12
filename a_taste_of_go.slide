@@ -15,10 +15,10 @@ martino.visintin@thoughtworks.com
 
 * What is Go?
 
-- compiled (w. blazing fast compile times)
+- compiled (with blazing fast compile times)
 - imperative
 - lightly OO (struct and interfaces)
-- strong static typing (w. type inference)
+- strong static typing (with type inference)
 
 
 * Hello World
