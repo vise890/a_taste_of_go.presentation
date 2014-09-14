@@ -5,7 +5,7 @@ import (
 	"math/rand"
 )
 
-const maxTemp int = 40
+const maxTemp int = 50
 
 // START OMIT
 type City struct {
@@ -17,8 +17,8 @@ func (c City) String() string {
 	return c.Name + "," + c.Country
 }
 
-func (c City) CurrentTemp() float32 {
-	return rand.Float32() * 50
+func (c City) CurrentTemp() int {
+	return rand.Intn(maxTemp)
 }
 
 func main() {

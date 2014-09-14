@@ -28,7 +28,7 @@ martino.visintin@thoughtworks.com
 Go is not the most revolutionary language, but it is really well executed, extremely pragmatic and very fast.
 
 
-* Some code: a temperature checker
+* Some code: a "temperature checker"
 .play ./code/weather.go /START OMIT/,/END OMIT/
 
 * Concurrency: the go way
