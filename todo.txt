@@ -1,4 +1,3 @@
-(A) add garbage collecion remark on "WHAT" slide
+
 (A) add usecases: how is go being used in the wild?
 add a slide on pointers and dereferencing
-shorten the presentation a bit, maybe too much width and too little depth?

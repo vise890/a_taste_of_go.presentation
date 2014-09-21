@@ -16,10 +16,16 @@ martino.visintin@thoughtworks.com
 * What is Go?
 
 - compiled (with blazing fast compile times)
+- low-ish level (e.g. explicit pointers, but garbage collected)
 - imperative
 - just enough OO (structs and interfaces)
 - strong static typing (with type inference)
 
+* Who uses Go?
+
+- Dropbox
+- dl.google.com
+- hashicorp
 
 * Hello World
 
@@ -60,6 +66,17 @@ You can also buffer channels...
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
 
 * DEMO: A mycraservise
+
+* Appendix: Go is explicit about pass by reference and by value
+
+* Passing by value
+.play ./code/pointers/by_value.go /START OMIT/,/END OMIT/
+
+* Passing by reference
+.play ./code/pointers/by_reference.go /START OMIT/,/END OMIT/
+
+* Remarks about pointers
+.play ./code/pointers/remarks.go /START OMIT/,/END OMIT/
 
 * References
 
