@@ -7,9 +7,6 @@ import (
 // START OMIT
 type Foo struct{ Bar int }
 
-// f is passed by reference:
-//   - the argument `f` is of type *Foo (read pointer to Foo)
-//   - this time bar will be updated in the Foo that we pass in
 func SetBar(f *Foo, newBar int) { f.Bar = newBar }
 
 func main() {
