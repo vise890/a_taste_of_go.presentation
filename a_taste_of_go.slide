@@ -23,9 +23,12 @@ martino.visintin@thoughtworks.com
 
 * Who uses Go?
 
-- Dropbox
 - Google (dl.google.com)
-- hashicorp (the Vagrant guys)
+- Dropbox
+- Canonical
+- Digital Ocean
+- Cloud Flare
+.link https://code.google.com/p/go-wiki/wiki/GoUsers And many others ...
 
 * Hello World
 

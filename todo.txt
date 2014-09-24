@@ -1,4 +1,3 @@
 
 (A) add usecases: how is go being used in the wild?
 add a slide on pointers and dereferencing
-(A) finish 'who uses go?' slide (cloudfoundry?,...)

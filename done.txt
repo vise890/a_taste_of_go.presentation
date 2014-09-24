@@ -1,1 +1,2 @@
 x (A) add garbage collecion remark on "WHAT" slide
+x (A) finish 'who uses go?' slide (cloudfoundry?,...)
