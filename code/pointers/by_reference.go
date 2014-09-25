@@ -10,7 +10,7 @@ type Foo struct{ Bar int }
 // f is passed by reference:
 //   - the argument `f` is of type *Foo (read pointer to Foo)
 //   - this time bar will be updated in the Foo that we pass in
-func SetBar(f *Foo, newBar int) { f.Bar = newBar }
+func (f *Foo) SetBar(newBar int) { f.Bar = newBar }
 
 func main() {
 	f := Foo{Bar: 1}
@@ -21,10 +21,12 @@ func main() {
 	// we create a reference to f with `&` ("address")
 	var aPointerTo_f *Foo = &f
 	// ..we pass it to SetBar..
-	SetBar(aPointerTo_f, 5)
+	aPointerTo_f.SetBar(5)
 
 	// ..and the change happens on the original f
-	fmt.Printf("After SetBar(&f, 5), Bar = %d\n", f.Bar)
+	fmt.Printf("After aPointerTo_f.SetBar(5), Bar = %d\n", f.Bar)
+
+	// NOTE: you can just call the func on the pointer..
 
 }
 

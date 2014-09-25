@@ -10,7 +10,7 @@ type Foo struct {
 }
 
 // f is passed by value, and Bar is updated in the copy
-func UselessSetBar(f Foo, newBar int) {
+func (f Foo) UselessSetBar(newBar int) {
 	f.Bar = newBar
 }
 
@@ -19,10 +19,10 @@ func main() {
 	fmt.Printf("Originally, Bar = %d\n", f.Bar)
 
 	// when we pass by copy:
-	UselessSetBar(f, 5)
+	f.UselessSetBar(5)
 
 	// ..the change doesn't affect the original
-	fmt.Printf("After UselessSetBar(f, 5), Bar = %d\n", f.Bar)
+	fmt.Printf("After f.UselessSetBar(5), Bar = %d\n", f.Bar)
 }
 
 // END OMIT

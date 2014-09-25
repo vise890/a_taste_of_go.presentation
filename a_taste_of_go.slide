@@ -70,7 +70,7 @@ You can also buffer channels...
 
 * DEMO: A mycraservise
 
-* Appendix: Go is explicit about pass by reference and by value
+* Appendix: Go is explicit about passing by reference or by value
 
 * Passing by value
 .play ./code/pointers/by_value.go /START OMIT/,/END OMIT/
@@ -78,8 +78,11 @@ You can also buffer channels...
 * Passing by reference
 .play ./code/pointers/by_reference.go /START OMIT/,/END OMIT/
 
-* Remarks about pointers
-.play ./code/pointers/remarks.go /START OMIT/,/END OMIT/
+* Dereferencing
+.play ./code/pointers/dereferencing.go /START OMIT/,/END OMIT/
+
+* Notes about pointers
+.play ./code/pointers/notes.go /START OMIT/,/END OMIT/
 
 * References
 
