@@ -16,13 +16,13 @@ func (f Foo) UselessSetBar(newBar int) {
 
 func main() {
 	f := Foo{Bar: 1}
-	fmt.Printf("Originally, Bar = %d\n", f.Bar)
+	fmt.Printf("Originally, f.Bar = %d\n", f.Bar)
 
 	// when we pass by copy:
 	f.UselessSetBar(5)
 
 	// ..the change doesn't affect the original
-	fmt.Printf("After f.UselessSetBar(5), Bar = %d\n", f.Bar)
+	fmt.Printf("After f.UselessSetBar(5), f.Bar = %d\n", f.Bar)
 }
 
 // END OMIT

@@ -21,7 +21,7 @@ func main() {
 	newF := Foo{Bar: 123}
 	*pointerTo_f = newF
 	// pointerTo_f now points to `newF`:
-	fmt.Printf("pointerTo_f now points to", *pointerTo_f)
+	fmt.Printf("pointerTo_f now points to ", *pointerTo_f)
 
 }
 
