@@ -3,6 +3,7 @@ A taste of Go
 Martino Visintin
 martino@avaaz.org
 
+
 * Why Go?
 
 - easy to learn
@@ -13,6 +14,7 @@ martino@avaaz.org
 
 - primitives to make concurrent programming easier
 
+
 * Who uses Go?
 
 - Google (dl.google.com)
@@ -22,13 +24,16 @@ martino@avaaz.org
 - CloudFlare
 .link https://code.google.com/p/go-wiki/wiki/GoUsers And many others ...
 
+
 * Hello World
 
 .play ./code/hello_world.go
 
 Go is not the most revolutionary language, but it is really well executed, extremely pragmatic and very fast.
 
+
 * Concurrency: the go way
+
 
 * Concurrency: Goroutines
 
@@ -56,21 +61,28 @@ You can also buffer channels...
 
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
 
+
 * DEMO: A mycraservise
 
+
 * Appendix: Go is explicit about passing by reference or by value
+
 
 * Passing by value
 .play ./code/pointers/by_value.go /START OMIT/,/END OMIT/
 
+
 * Passing by reference
 .play ./code/pointers/by_reference.go /START OMIT/,/END OMIT/
+
 
 * Dereferencing
 .play ./code/pointers/dereferencing.go /START OMIT/,/END OMIT/
 
+
 * Notes about pointers
 .play ./code/pointers/notes.go /START OMIT/,/END OMIT/
+
 
 * References
 
