@@ -7,9 +7,9 @@ martino@avaaz.org
 
 - easy to learn
 - compiler produces *statically* *linked* *binaries* (no runtime, run everywhere)
-- compile times are *blazing* *fast* (static check every time you save a file)
+- compile times are *blazing* *fast*
 
-- plenty of high-quality libraries (e.g. MongoDB driver is best in class [1])
+- plenty of high-quality libraries
 
 - concurrency primitives that make concurrent programming easier
 
@@ -78,7 +78,6 @@ You can also buffer channels...
 
 * References
 
-.link http://confreaks.com/videos/3433-gophercon2014-painless-data-storage-with-mongodb-and-go [1] Painless Data Storage with MongoDB and Go
 .link http://talks.golang.org/2012/concurrency.slide Go concurrency patterns
 
 
