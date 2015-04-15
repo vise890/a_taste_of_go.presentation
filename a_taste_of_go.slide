@@ -11,7 +11,7 @@ martino@avaaz.org
 
 - plenty of high-quality libraries
 
-- concurrency primitives that make concurrent programming easier
+- primitives to make concurrent programming easier
 
 * Who uses Go?
 
