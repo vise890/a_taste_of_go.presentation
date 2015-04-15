@@ -7,19 +7,11 @@ martino@avaaz.org
 
 - easy to learn
 - compiler produces *statically* *linked* *binaries* (no runtime, run everywhere)
-- compile times are *fast*
+- compile times are *blazing* *fast* (static check every time you save a file)
 
 - plenty of high-quality libraries (e.g. MongoDB driver is best in class [1])
 
-- construcurrency primitives that make concurrent programming easier
-
-* What is Go?
-
-- compiled (with blazing fast compile times)
-- low-ish level (e.g. explicit pointers, but garbage collected)
-- imperative
-- just enough OO (structs and interfaces)
-- strong static typing (with type inference)
+- concurrency primitives that make concurrent programming easier
 
 * Who uses Go?
 
