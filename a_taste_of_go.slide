@@ -62,9 +62,6 @@ You can also buffer channels...
 .play ./code/health_checker.go /START OMIT/,/END OMIT/
 
 
-* DEMO: A mycraservise
-
-
 * Appendix: Go is explicit about passing by reference or by value
 
 
