@@ -1,7 +1,7 @@
 An introduction to go. From 0 to restful API in 60 minutes.
 
 # Requirements
-- `go` 1.3
+- `go`
 - `go get code.google.com/p/go.tools/cmd/present`
 
 # Usage
