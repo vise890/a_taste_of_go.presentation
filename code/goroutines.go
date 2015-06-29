@@ -14,11 +14,11 @@ func main() {
 	sayHello := func(i int) {
 		pause := time.Duration(rand.Intn(1e3)) * time.Millisecond
 		time.Sleep(pause)
-		log.Printf("`Hello!` from goroutine #%d\n", i)
+		log.Printf("`Hello!` from goroutine #%d", i)
 	}
 
 	for i := 1; i <= 5; i++ {
-		log.Printf("Launching goroutine #%d\n", i)
+		log.Printf("Launching goroutine #%d", i)
 
 		go sayHello(i)
 	}
